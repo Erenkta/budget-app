@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh!important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif!important;
+    text-align: center!important;
+}
+
+
+body h2{
+    margin-top: 25px;
+}
+
+.budget-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin:20px 20px 0px 20px;
+}
+.budget-container div{
+    width: 250px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 15px 10px 5px  rgba(0,0,0,.3);
+    border : 1px solid black;
+}
+
+
+.current-budget{
+    background-color: rgb(168, 164, 164);
+    width: 350!important;
+}
+
+.remain-budget{
+    Background-color: rgba(2, 201, 85, 0.85);
+    
+}
+.spent-budget{
+    background-color: red;
+}
+
+.shopping-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+.add-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+.add-section input{
+    padding :5px 10px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    font-size: 1.2rem;
+}
+
+.product-item{
+    border:1px solid black;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.product-item span{
+    background-color:#0d6efd ;
+    padding : 7px;
+    border-radius: 15px;
+    color: white;
+    font-size: small;
+}
